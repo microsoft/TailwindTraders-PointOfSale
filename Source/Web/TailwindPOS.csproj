@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net461</TargetFramework>
+        <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <StartupObject>WebSite.Startup</StartupObject>
+        <AssemblyName>TailwindPOS</AssemblyName>
+        <ProjectGuid>f4a22990-2c6e-493b-bcf2-c21e6f9d1332</ProjectGuid>
+        <Deterministic>False</Deterministic>
+        <LangVersion>7.3</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="WinFormsSupport\WinFormsSupport.csproj"/>
+        <ProjectReference Include="Stubs\Stubs.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+        <PackageReference Include="Microsoft.VisualBasic" Version="10.2.0" />
+        <PackageReference Include="Mobilize.Extensions.Logging.RollingFile" Version="2.1.1-rc0027" />
+        <PackageReference Include="Mobilize.WebMap.CoreServices.All" Version="6.0.0-rc.136"/>
+        <PackageReference Include="Mobilize.Web.BundleBasic.All" Version="5.0.6-rc0057"/>
+        <PackageReference Include="Mobilize.VBUC.Helpers.All" Version="8.1.0-rc11540"/>
+        <PackageReference Include="Mobilize.Weaving.WebMapExtensions.All" Version="6.0.0-rc.135"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Views\**\*.cshtml" />
+        <Content Include="Views\**\*.config" />
+        <Compile Remove="*-angular\**" />
+        <Content Remove="*-angular\**" />
+        <EmbeddedResource Remove="*-angular\**" />
+        <None Remove="*-angular\**" />
+		        <Compile Remove="WinFormsSupport\**" />
+		<Content Remove="WinFormsSupport\**" />
+		<EmbeddedResource Remove="WinFormsSupport\**" />
+		<None Remove="WinFormsSupport\**" />
+        <Compile Remove="Stubs\**" />
+		<Content Remove="Stubs\**" />
+		<EmbeddedResource Remove="Stubs\**" />
+		<None Remove="Stubs\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="Interop.MSXML2">
+      <HintPath>lib\Interop.MSXML2.dll</HintPath>
+      </Reference>
+      <Reference Include="Interop.Scripting">
+      <HintPath>lib\Interop.Scripting.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
+

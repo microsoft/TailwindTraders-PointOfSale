@@ -1,0 +1,290 @@
+.TailwindPOS_frmSales {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmSales .frmSales {
+    background-color: White;
+    width: 1202px;
+    height: 909px;
+    overflow: hidden;
+    left: 3px;
+    top: 26px;
+}
+.TailwindPOS_frmSales .fgItems {
+    left: 8px;
+    top: 8px;
+    width: 777px;
+    height: 449px;
+    position: absolute;
+}
+.TailwindPOS_frmSales .cbAddCustomer {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 800px;
+    top: 8px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .cbCustomerSearch {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 1008px;
+    top: 8px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .gbCustomerInfo {
+    background-color: White;
+    color: #2F4B66;
+    left: 800px;
+    top: 136px;
+    width: 393px;
+    height: 114px;
+    position: absolute;
+}
+.TailwindPOS_frmSales .lblCustomerInfo {
+    background-color: White;
+    color: #2F4B66;
+    left: 24px;
+    top: 40px;
+    width: 337px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .cbQuantity {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 800px;
+    top: 264px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .cbVoidItem {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 1008px;
+    top: 264px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .cbRePrint {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 800px;
+    top: 384px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .cbVoidTransaction {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 1008px;
+    top: 384px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .ucNumericKeyPad {
+    left: 8px;
+    top: 464px;
+    width: 337px;
+    height: 417px;
+    position: absolute;
+}
+.TailwindPOS_frmSales .frSubTotals {
+    background-color: White;
+    color: #2F4B66;
+    left: 360px;
+    top: 464px;
+    width: 353px;
+    height: 217px;
+    position: absolute;
+}
+.TailwindPOS_frmSales .lblSubTotalTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 16px;
+    top: 32px;
+    width: 129px;
+    height: 33px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblSubTotal {
+    background-color: White;
+    color: #2F4B66;
+    left: 168px;
+    top: 32px;
+    width: 129px;
+    height: 33px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblTaxTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 16px;
+    top: 80px;
+    width: 81px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblTax {
+    background-color: White;
+    color: #2F4B66;
+    left: 168px;
+    top: 80px;
+    width: 129px;
+    height: 33px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblTotalTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 16px;
+    top: 128px;
+    width: 97px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblTotal {
+    background-color: White;
+    color: #2F4B66;
+    left: 168px;
+    top: 128px;
+    width: 129px;
+    height: 33px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .cbBreak {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 800px;
+    top: 504px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .cbLogOff {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 1008px;
+    top: 504px;
+    width: 185px;
+    height: 114px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .lblCashierTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 752px;
+    top: 632px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .lblCashier {
+    background-color: White;
+    color: #2F4B66;
+    left: 960px;
+    top: 632px;
+    width: 185px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .cbPayment {
+    background-color: #00C000;
+    color: rgba(0, 0, 0, 1);
+    left: 360px;
+    top: 688px;
+    width: 353px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmSales .lblPOSTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 752px;
+    top: 704px;
+    width: 105px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmSales .picLogo {
+    background-color: rgba(255, 255, 255, 1);
+    left: 960px;
+    top: 696px;
+    width: 230px;
+    height: 206px;
+    position: absolute;
+}
+.TailwindPOS_frmSales .lblPOS {
+    background-color: White;
+    color: #2F4B66;
+    left: 752px;
+    top: 768px;
+    width: 153px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}

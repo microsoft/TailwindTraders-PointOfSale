@@ -1,0 +1,32 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmCustAdd" class="TailwindPOS_frmCustAdd">
+        <ng-template let-model>
+            <div class="frmCustAdd">
+                <wm-label id="lblFirstName" [model]="model.lblFirstName" class="lblFirstName" tabindex="1">First Name:</wm-label>
+                <wm-textbox id="txtFirstName" [model]="model.txtFirstName" class="txtFirstName" tabindex="2"></wm-textbox>
+                <wm-label id="lblLastName" [model]="model.lblLastName" class="lblLastName" tabindex="3">Last Name:</wm-label>
+                <wm-textbox id="txtLastName" [model]="model.txtLastName" class="txtLastName" tabindex="4"></wm-textbox>
+                <wm-label id="lblEmail" [model]="model.lblEmail" class="lblEmail" tabindex="5">Email</wm-label>
+                <wm-textbox id="txtEmail" [model]="model.txtEmail" class="txtEmail" tabindex="6"></wm-textbox>
+                <wm-label id="lblCompany" [model]="model.lblCompany" class="lblCompany" tabindex="7">Company</wm-label>
+                <wm-textbox id="txtCompany" [model]="model.txtCompany" class="txtCompany" tabindex="8"></wm-textbox>
+                <wm-label id="lblPhone" [model]="model.lblPhone" class="lblPhone" tabindex="9">Phone</wm-label>
+                <wm-textbox id="txtPhone" [model]="model.txtPhone" class="txtPhone" tabindex="10"></wm-textbox>
+                <wm-label id="lblStreetAddress1" [model]="model.lblStreetAddress1" class="lblStreetAddress1" tabindex="11">Street Address:</wm-label>
+                <wm-textbox id="txtStreetAddress1" [model]="model.txtStreetAddress1" class="txtStreetAddress1" tabindex="12"></wm-textbox>
+                <wm-label id="lblStreetAdress2" [model]="model.lblStreetAdress2" class="lblStreetAdress2" tabindex="13">Street Address 2:</wm-label>
+                <wm-textbox id="txtStreetAddress2" [model]="model.txtStreetAddress2" class="txtStreetAddress2" tabindex="14"></wm-textbox>
+                <wm-label id="lblState" [model]="model.lblState" class="lblState" tabindex="15">State</wm-label>
+                <wm-textbox id="txtState" [model]="model.txtState" class="txtState" tabindex="16"></wm-textbox>
+                <wm-label id="lblCity" [model]="model.lblCity" class="lblCity" tabindex="17">City</wm-label>
+                <wm-textbox id="txtCity" [model]="model.txtCity" class="txtCity" tabindex="18"></wm-textbox>
+                <wm-label id="lblZipCode" [model]="model.lblZipCode" class="lblZipCode" tabindex="19">Zip Code</wm-label>
+                <wm-textbox id="txtZipCode" [model]="model.txtZipCode" class="txtZipCode" tabindex="20"></wm-textbox>
+                <wm-label id="lblCounty" [model]="model.lblCounty" class="lblCounty" tabindex="21">County</wm-label>
+                <wm-textbox id="txtCounty" [model]="model.txtCounty" class="txtCounty" tabindex="22"></wm-textbox>
+                <wm-button id="cbSave" [model]="model.cbSave" class="cbSave" tabindex="23"></wm-button>
+                <wm-button id="cbClose" [model]="model.cbClose" class="cbClose" tabindex="24"></wm-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

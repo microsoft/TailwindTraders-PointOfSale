@@ -1,0 +1,24 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmPayment" class="TailwindPOS_frmPayment">
+        <ng-template let-model>
+            <div class="frmPayment">
+                <wm-label id="lblRemaingTitle" [model]="model.lblRemaingTitle" class="lblRemaingTitle" tabindex="1">Amount Remaining</wm-label>
+                <wm-groupbox id="gbPayments" [model]="model.gbPayments" class="gbPayments" tabindex="2">
+          <tailwind-pos-uc-numbers-pad id="ucNumbers" [model]="model.ucNumbers" class="ucNumbers" tabindex="3"></tailwind-pos-uc-numbers-pad>
+          <wm-button id="cbCash" [model]="model.cbCash" class="cbCash" tabindex="4"></wm-button>
+          <wm-button id="cbCreditCard" [model]="model.cbCreditCard" class="cbCreditCard" tabindex="5"></wm-button>
+          <wm-button id="cbCheck" [model]="model.cbCheck" class="cbCheck" tabindex="6"></wm-button>
+          <wm-button id="cbGiftCard" [model]="model.cbGiftCard" class="cbGiftCard" tabindex="7"></wm-button>
+</wm-groupbox>
+                <wm-label id="lblRemaining" [model]="model.lblRemaining" class="lblRemaining" tabindex="8">$0.00</wm-label>
+                <wm-label id="lblChangeTitle" [model]="model.lblChangeTitle" class="lblChangeTitle" tabindex="9">Change Due</wm-label>
+                <wm-label id="lblChange" [model]="model.lblChange" class="lblChange" tabindex="10">$0.00</wm-label>
+                <wm-label id="lblPaymentReady" [model]="model.lblPaymentReady" class="lblPaymentReady" tabindex="11">Payment Ready. Press Continue to Print the Receipt</wm-label>
+                <wm-label id="lblPaidSoFarTitle" [model]="model.lblPaidSoFarTitle" class="lblPaidSoFarTitle" tabindex="12">Paid So Far</wm-label>
+                <wm-datagridviewflex id="fgPayments" [model]="model.fgPayments" class="fgPayments" tabindex="13"></wm-datagridviewflex>
+                <wm-button id="cbFinishPayment" [model]="model.cbFinishPayment" class="cbFinishPayment" tabindex="14"></wm-button>
+                <wm-button id="cb_Cancel" [model]="model.cb_Cancel" class="cb_Cancel" tabindex="15"></wm-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

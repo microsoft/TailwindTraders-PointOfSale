@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}") = "TailwindPOS", "TailwindPOS.csproj", "{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}"
+EndProject
+Project("{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}") = "WinFormsSupport", "WinFormsSupport\WinFormsSupport.csproj", "{5091DB57-D0FD-42A3-861D-3766778159F3}"
+EndProject
+Project("{2150E333-8FDC-42a3-9474-1A3956D46DE8}") = "TailwindPOS.csproj", "TailwindPOS.csproj", "{1C325C86-33BB-4772-960B-611EF0B5000E}"
+EndProject
+Project("{2150E333-8FDC-42a3-9474-1A3956D46DE8}") = "WinFormsSupport", "WinFormsSupport", "{F384FD1C-0E7F-4E43-BD5A-82E9A81A816F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|x86.ActiveCfg = Debug|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|x86.Build.0 = Debug|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|x86.ActiveCfg = Release|x86
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|x86.Build.0 = Release|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|x86.ActiveCfg = Debug|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|x86.Build.0 = Debug|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|x86.ActiveCfg = Release|x86
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332} = {1C325C86-33BB-4772-960B-611EF0B5000E}
+		{5091DB57-D0FD-42A3-861D-3766778159F3} = {F384FD1C-0E7F-4E43-BD5A-82E9A81A816F}
+	EndGlobalSection
+EndGlobal

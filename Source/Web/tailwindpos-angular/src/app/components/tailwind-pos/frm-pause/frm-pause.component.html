@@ -1,0 +1,10 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmPause" class="TailwindPOS_frmPause">
+        <ng-template let-model>
+            <div class="frmPause">
+                <wm-label id="lblPauseMessage" [model]="model.lblPauseMessage" class="lblPauseMessage" tabindex="1">POS Paused</wm-label>
+                <wm-button id="cbReturn" [model]="model.cbReturn" class="cbReturn" tabindex="2"></wm-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

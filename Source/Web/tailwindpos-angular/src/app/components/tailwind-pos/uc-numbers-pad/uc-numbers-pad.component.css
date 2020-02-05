@@ -1,0 +1,211 @@
+
+.TailwindPOS_ucNumbersPad .ucNumbersPad {
+    width: 334px;
+    height: 412px;
+    position: absolute;
+    overflow: hidden;
+}
+.TailwindPOS_ucNumbersPad .txtAmount {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 8px;
+    width: 313px;
+    height: 73px;
+    position: absolute;
+}
+.TailwindPOS_ucNumbersPad .cb_Number7 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 8px;
+    top: 88px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number8 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 88px;
+    top: 88px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number9 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 168px;
+    top: 88px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Back {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 248px;
+    top: 88px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number4 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 8px;
+    top: 168px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number5 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 88px;
+    top: 168px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number6 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 168px;
+    top: 168px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Clear {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 248px;
+    top: 168px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number1 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 8px;
+    top: 248px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number2 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 88px;
+    top: 248px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number3 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 168px;
+    top: 248px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Enter {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 248px;
+    top: 248px;
+    width: 73px;
+    height: 153px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number0 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 8px;
+    top: 328px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Number00 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 88px;
+    top: 328px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucNumbersPad .cb_Period {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 168px;
+    top: 328px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

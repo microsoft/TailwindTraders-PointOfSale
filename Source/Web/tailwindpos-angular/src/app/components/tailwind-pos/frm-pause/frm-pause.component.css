@@ -1,0 +1,36 @@
+.TailwindPOS_frmPause {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmPause .frmPause {
+    background-color: rgba(255, 255, 255, 1);
+    width: 844px;
+    height: 334px;
+    overflow: hidden;
+    left: 3px;
+    top: 26px;
+}
+.TailwindPOS_frmPause .lblPauseMessage {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 56px;
+    top: 32px;
+    width: 713px;
+    height: 73px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPause .cbReturn {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 224px;
+    top: 160px;
+    width: 417px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

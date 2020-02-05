@@ -1,0 +1,36 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmCashCount" class="TailwindPOS_frmCashCount">
+        <ng-template let-model>
+            <div class="frmCashCount">
+                <wm-label id="lblMessage" [model]="model.lblMessage" class="lblMessage" tabindex="28">Enter Cash Amount</wm-label>
+                <wm-label id="lblTotalTitle" [model]="model.lblTotalTitle" class="lblTotalTitle" tabindex="16">Total</wm-label>
+                <wm-label id="lblTotal" [model]="model.lblTotal" class="lblTotal" tabindex="15">$0</wm-label>
+                <wm-label id="lblPennies" [model]="model.lblPennies" class="lblPennies" tabindex="27">Pennies</wm-label>
+                <wm-textbox id="txtPennies" [model]="model.txtPennies" class="txtPennies" tabindex="12"></wm-textbox>
+                <wm-label id="lblOnes" [model]="model.lblOnes" class="lblOnes" tabindex="22">Ones</wm-label>
+                <wm-textbox id="txtOnes" [model]="model.txtOnes" class="txtOnes" tabindex="8"></wm-textbox>
+                <wm-button id="cbClear" [model]="model.cbClear" class="cbClear" tabindex="1"></wm-button>
+                <wm-label id="lblNickels" [model]="model.lblNickels" class="lblNickels" tabindex="26">Nickels</wm-label>
+                <wm-textbox id="txtNickels" [model]="model.txtNickels" class="txtNickels" tabindex="11"></wm-textbox>
+                <wm-label id="lblFives" [model]="model.lblFives" class="lblFives" tabindex="21">Fives</wm-label>
+                <wm-textbox id="txtFives" [model]="model.txtFives" class="txtFives" tabindex="7"></wm-textbox>
+                <wm-button id="cbOK" [model]="model.cbOK" class="cbOK" tabindex="2"></wm-button>
+                <wm-label id="lblDimes" [model]="model.lblDimes" class="lblDimes" tabindex="25">Dimes</wm-label>
+                <wm-textbox id="txtDimes" [model]="model.txtDimes" class="txtDimes" tabindex="10"></wm-textbox>
+                <wm-label id="lblTens" [model]="model.lblTens" class="lblTens" tabindex="20">Tens</wm-label>
+                <wm-textbox id="txtTens" [model]="model.txtTens" class="txtTens" tabindex="6"></wm-textbox>
+                <tailwind-pos-uc-numbers-pad id="ucNumbers" [model]="model.ucNumbers" class="ucNumbers" tabindex="14"></tailwind-pos-uc-numbers-pad>
+                <wm-label id="lblQuarters" [model]="model.lblQuarters" class="lblQuarters" tabindex="24">Quarters</wm-label>
+                <wm-textbox id="txtQuarters" [model]="model.txtQuarters" class="txtQuarters" tabindex="9"></wm-textbox>
+                <wm-label id="lblTwenties" [model]="model.lblTwenties" class="lblTwenties" tabindex="19">Twenties</wm-label>
+                <wm-textbox id="txtTwenties" [model]="model.txtTwenties" class="txtTwenties" tabindex="4"></wm-textbox>
+                <wm-label id="lblHalfDollars" [model]="model.lblHalfDollars" class="lblHalfDollars" tabindex="23">Half Dollars</wm-label>
+                <wm-textbox id="txtHalfDollars" [model]="model.txtHalfDollars" class="txtHalfDollars" tabindex="13"></wm-textbox>
+                <wm-label id="lblFifties" [model]="model.lblFifties" class="lblFifties" tabindex="18">Fifties</wm-label>
+                <wm-textbox id="txtFifties" [model]="model.txtFifties" class="txtFifties" tabindex="3"></wm-textbox>
+                <wm-label id="lblHundreds" [model]="model.lblHundreds" class="lblHundreds" tabindex="17">Hundreds</wm-label>
+                <wm-textbox id="txtHundreds" [model]="model.txtHundreds" class="txtHundreds" tabindex="5"></wm-textbox>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

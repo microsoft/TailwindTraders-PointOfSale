@@ -1,0 +1,12 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmGiftCardCode" class="TailwindPOS_frmGiftCardCode">
+        <ng-template let-model>
+            <div class="frmGiftCardCode">
+                <wm-label id="lblMessage" [model]="model.lblMessage" class="lblMessage" tabindex="1">Enter GIFT CARD CODE</wm-label>
+                <wm-textbox id="txtCode" [model]="model.txtCode" class="txtCode" tabindex="2"></wm-textbox>
+                <wm-button id="cbOK" [model]="model.cbOK" class="cbOK" tabindex="3"></wm-button>
+                <wm-button id="cbCancel" [model]="model.cbCancel" class="cbCancel" tabindex="4"></wm-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

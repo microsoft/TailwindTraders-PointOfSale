@@ -1,0 +1,35 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="frmSales" class="TailwindPOS_frmSales">
+        <ng-template let-model>
+            <div class="frmSales">
+                <wm-datagridviewflex id="fgItems" [model]="model.fgItems" class="fgItems" tabindex="1"></wm-datagridviewflex>
+                <wm-button id="cbAddCustomer" [model]="model.cbAddCustomer" class="cbAddCustomer" tabindex="2"></wm-button>
+                <wm-button id="cbCustomerSearch" [model]="model.cbCustomerSearch" class="cbCustomerSearch" tabindex="3"></wm-button>
+                <wm-groupbox id="gbCustomerInfo" [model]="model.gbCustomerInfo" class="gbCustomerInfo" tabindex="4">
+          <wm-label id="lblCustomerInfo" [model]="model.lblCustomerInfo" class="lblCustomerInfo" tabindex="5"></wm-label>
+</wm-groupbox>
+                <wm-button id="cbQuantity" [model]="model.cbQuantity" class="cbQuantity" tabindex="6"></wm-button>
+                <wm-button id="cbVoidItem" [model]="model.cbVoidItem" class="cbVoidItem" tabindex="7"></wm-button>
+                <wm-button id="cbRePrint" [model]="model.cbRePrint" class="cbRePrint" tabindex="8"></wm-button>
+                <wm-button id="cbVoidTransaction" [model]="model.cbVoidTransaction" class="cbVoidTransaction" tabindex="9"></wm-button>
+                <tailwind-pos-uc-numbers-pad id="ucNumericKeyPad" [model]="model.ucNumericKeyPad" class="ucNumericKeyPad" tabindex="10"></tailwind-pos-uc-numbers-pad>
+                <wm-groupbox id="frSubTotals" [model]="model.frSubTotals" class="frSubTotals" tabindex="11">
+          <wm-label id="lblSubTotalTitle" [model]="model.lblSubTotalTitle" class="lblSubTotalTitle" tabindex="12">SubTotal:</wm-label>
+          <wm-label id="lblSubTotal" [model]="model.lblSubTotal" class="lblSubTotal" tabindex="13">0.00</wm-label>
+          <wm-label id="lblTaxTitle" [model]="model.lblTaxTitle" class="lblTaxTitle" tabindex="14">Tax:</wm-label>
+          <wm-label id="lblTax" [model]="model.lblTax" class="lblTax" tabindex="15">0.00</wm-label>
+          <wm-label id="lblTotalTitle" [model]="model.lblTotalTitle" class="lblTotalTitle" tabindex="16">Total:</wm-label>
+          <wm-label id="lblTotal" [model]="model.lblTotal" class="lblTotal" tabindex="17">0.00</wm-label>
+</wm-groupbox>
+                <wm-button id="cbBreak" [model]="model.cbBreak" class="cbBreak" tabindex="18"></wm-button>
+                <wm-button id="cbLogOff" [model]="model.cbLogOff" class="cbLogOff" tabindex="19"></wm-button>
+                <wm-label id="lblCashierTitle" [model]="model.lblCashierTitle" class="lblCashierTitle" tabindex="20">Cashier:</wm-label>
+                <wm-label id="lblCashier" [model]="model.lblCashier" class="lblCashier" tabindex="21">CashierID</wm-label>
+                <wm-button id="cbPayment" [model]="model.cbPayment" class="cbPayment" tabindex="22"></wm-button>
+                <wm-label id="lblPOSTitle" [model]="model.lblPOSTitle" class="lblPOSTitle" tabindex="23">POS:</wm-label>
+                <wm-picturebox id="picLogo" [model]="model.picLogo" class="picLogo" tabindex="25"></wm-picturebox>
+                <wm-label id="lblPOS" [model]="model.lblPOS" class="lblPOS" tabindex="24">POSName</wm-label>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

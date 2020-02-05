@@ -1,0 +1,180 @@
+.TailwindPOS_frmPayment {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmPayment .frmPayment {
+    background-color: White;
+    width: 1219px;
+    height: 659px;
+    overflow: hidden;
+    left: 4px;
+    top: 27px;
+}
+.TailwindPOS_frmPayment .lblRemaingTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 864px;
+    top: 8px;
+    width: 329px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .gbPayments {
+    background-color: White;
+    color: #2F4B66;
+    left: 16px;
+    top: 24px;
+    width: 729px;
+    height: 529px;
+    position: absolute;
+}
+.TailwindPOS_frmPayment .ucNumbers {
+    left: 8px;
+    top: 48px;
+    width: 361px;
+    height: 457px;
+    position: absolute;
+}
+.TailwindPOS_frmPayment .cbCash {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 368px;
+    top: 56px;
+    width: 313px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmPayment .cbCreditCard {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 368px;
+    top: 144px;
+    width: 313px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmPayment .cbCheck {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 368px;
+    top: 232px;
+    width: 313px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmPayment .cbGiftCard {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 368px;
+    top: 320px;
+    width: 313px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmPayment .lblRemaining {
+    background-color: White;
+    color: #2F4B66;
+    left: 832px;
+    top: 56px;
+    width: 361px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .lblChangeTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 864px;
+    top: 104px;
+    width: 329px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .lblChange {
+    background-color: White;
+    color: #2F4B66;
+    left: 832px;
+    top: 152px;
+    width: 361px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .lblPaymentReady {
+    background-color: rgba(240, 240, 240, 1);
+    color: rgba(0, 0, 0, 1);
+    left: 48px;
+    top: 184px;
+    width: 401px;
+    height: 193px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .lblPaidSoFarTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 864px;
+    top: 200px;
+    width: 329px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmPayment .fgPayments {
+    color: #2F4B66;
+    left: 816px;
+    top: 256px;
+    width: 385px;
+    height: 281px;
+    position: absolute;
+}
+.TailwindPOS_frmPayment .cbFinishPayment {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 624px;
+    top: 568px;
+    width: 289px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmPayment .cb_Cancel {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 928px;
+    top: 568px;
+    width: 265px;
+    height: 81px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

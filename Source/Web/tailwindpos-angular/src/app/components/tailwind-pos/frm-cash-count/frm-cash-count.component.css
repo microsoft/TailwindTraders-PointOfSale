@@ -1,0 +1,298 @@
+.TailwindPOS_frmCashCount {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmCashCount .frmCashCount {
+    background-color: White;
+    width: 1038px;
+    height: 640px;
+    overflow: hidden;
+    left: 4px;
+    top: 27px;
+}
+.TailwindPOS_frmCashCount .lblMessage {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 8px;
+    width: 297px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .lblTotalTitle {
+    background-color: White;
+    color: #2F4B66;
+    left: 568px;
+    top: 8px;
+    width: 113px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .lblTotal {
+    background-color: White;
+    color: #2F4B66;
+    left: 728px;
+    top: 8px;
+    width: 249px;
+    height: 65px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .lblPennies {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 72px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtPennies {
+    background-color: White;
+    color: #2F4B66;
+    left: 160px;
+    top: 72px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblOnes {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 72px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtOnes {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 72px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .cbClear {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 568px;
+    top: 72px;
+    width: 409px;
+    height: 57px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmCashCount .lblNickels {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 128px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtNickels {
+    background-color: White;
+    color: #2F4B66;
+    left: 160px;
+    top: 128px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblFives {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 128px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtFives {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 128px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .cbOK {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 568px;
+    top: 136px;
+    width: 409px;
+    height: 57px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmCashCount .lblDimes {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 184px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtDimes {
+    background-color: White;
+    color: #2F4B66;
+    left: 160px;
+    top: 184px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblTens {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 184px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtTens {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 184px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .ucNumbers {
+    left: 568px;
+    top: 200px;
+    width: 377px;
+    height: 425px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblQuarters {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 240px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtQuarters {
+    background-color: White;
+    color: #2F4B66;
+    left: 160px;
+    top: 240px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblTwenties {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 240px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtTwenties {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 240px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblHalfDollars {
+    background-color: White;
+    color: #2F4B66;
+    left: 8px;
+    top: 296px;
+    width: 145px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtHalfDollars {
+    background-color: White;
+    color: #2F4B66;
+    left: 160px;
+    top: 296px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblFifties {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 288px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtFifties {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 296px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmCashCount .lblHundreds {
+    background-color: White;
+    color: #2F4B66;
+    left: 296px;
+    top: 344px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCashCount .txtHundreds {
+    background-color: White;
+    color: #2F4B66;
+    left: 416px;
+    top: 352px;
+    width: 113px;
+    height: 49px;
+    position: absolute;
+}

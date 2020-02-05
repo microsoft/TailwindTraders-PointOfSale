@@ -1,0 +1,588 @@
+
+.TailwindPOS_ucLettersPad .ucLettersPad {
+    width: 642px;
+    height: 571px;
+    position: absolute;
+    overflow: hidden;
+}
+.TailwindPOS_ucLettersPad .txtValue {
+    background-color: White;
+    color: #2F4B66;
+    left: 0px;
+    top: 0px;
+    width: 633px;
+    height: 73px;
+    position: absolute;
+}
+.TailwindPOS_ucLettersPad .cb_Number1 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number2 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number3 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number4 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 240px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number5 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number6 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 400px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number7 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number8 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 560px;
+    top: 80px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number9 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Number0 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Period {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbMinus {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 240px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbUnderscore {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbAt {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 400px;
+    top: 160px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbAllCaps {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 160px;
+    width: 153px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterA {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterB {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterC {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterD {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 240px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterE {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterF {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 400px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterG {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterH {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 560px;
+    top: 240px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterI {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterJ {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterK {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterL {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 240px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterM {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterN {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 400px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterO {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterP {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 560px;
+    top: 320px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterQ {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterR {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterS {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterT {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 240px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterU {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterV {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 400px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterW {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterX {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 560px;
+    top: 400px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterY {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 0px;
+    top: 480px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbLetterZ {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 80px;
+    top: 480px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbSpace {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 160px;
+    top: 480px;
+    width: 153px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cbDelete {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 320px;
+    top: 480px;
+    width: 153px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_ucLettersPad .cb_Enter {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 480px;
+    top: 480px;
+    width: 153px;
+    height: 73px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

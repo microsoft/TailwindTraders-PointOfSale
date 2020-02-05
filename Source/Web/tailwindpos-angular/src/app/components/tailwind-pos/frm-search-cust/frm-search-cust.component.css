@@ -1,0 +1,39 @@
+.TailwindPOS_frmSearchCust {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmSearchCust .frmSearchCust {
+    background-color: White;
+    width: 1496px;
+    height: 737px;
+    overflow: hidden;
+    left: 11px;
+    top: 34px;
+}
+.TailwindPOS_frmSearchCust .ucLettersPad {
+    left: 8px;
+    top: 24px;
+    width: 633px;
+    height: 569px;
+    position: absolute;
+}
+.TailwindPOS_frmSearchCust .fgCustomers {
+    left: 648px;
+    top: 24px;
+    width: 849px;
+    height: 577px;
+    position: absolute;
+}
+.TailwindPOS_frmSearchCust .cbClose {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 1248px;
+    top: 640px;
+    width: 241px;
+    height: 57px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

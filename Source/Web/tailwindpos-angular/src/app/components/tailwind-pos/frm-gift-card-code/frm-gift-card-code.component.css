@@ -1,0 +1,59 @@
+.TailwindPOS_frmGiftCardCode {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmGiftCardCode .frmGiftCardCode {
+    background-color: White;
+    width: 688px;
+    height: 213px;
+    overflow: hidden;
+    color: #2F4B66;
+    left: 184px;
+    top: 250px;
+}
+.TailwindPOS_frmGiftCardCode .lblMessage {
+    background-color: White;
+    color: #2F4B66;
+    left: 40px;
+    top: 24px;
+    width: 313px;
+    height: 41px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmGiftCardCode .txtCode {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    left: 24px;
+    top: 72px;
+    width: 633px;
+    height: 49px;
+    position: absolute;
+}
+.TailwindPOS_frmGiftCardCode .cbOK {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 72px;
+    top: 128px;
+    width: 265px;
+    height: 65px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmGiftCardCode .cbCancel {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 360px;
+    top: 128px;
+    width: 265px;
+    height: 65px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

@@ -1,0 +1,20 @@
+<div *ngIf="model" class="TailwindPOS_ucNumbersPad">
+    <div class="ucNumbersPad" [ngStyle]="setMyStyle()" [ngClass]="class" name="ucNumbersPad">
+        <wm-textbox id="txtAmount" [model]="model.txtAmount" class="txtAmount" tabindex="16"></wm-textbox>
+        <wm-button id="cb_Number7" [model]="model.cb_Number7" class="cb_Number7" tabindex="1"></wm-button>
+        <wm-button id="cb_Number8" [model]="model.cb_Number8" class="cb_Number8" tabindex="2"></wm-button>
+        <wm-button id="cb_Number9" [model]="model.cb_Number9" class="cb_Number9" tabindex="3"></wm-button>
+        <wm-button id="cb_Back" [model]="model.cb_Back" class="cb_Back" tabindex="4"></wm-button>
+        <wm-button id="cb_Number4" [model]="model.cb_Number4" class="cb_Number4" tabindex="5"></wm-button>
+        <wm-button id="cb_Number5" [model]="model.cb_Number5" class="cb_Number5" tabindex="6"></wm-button>
+        <wm-button id="cb_Number6" [model]="model.cb_Number6" class="cb_Number6" tabindex="7"></wm-button>
+        <wm-button id="cb_Clear" [model]="model.cb_Clear" class="cb_Clear" tabindex="8"></wm-button>
+        <wm-button id="cb_Number1" [model]="model.cb_Number1" class="cb_Number1" tabindex="9"></wm-button>
+        <wm-button id="cb_Number2" [model]="model.cb_Number2" class="cb_Number2" tabindex="10"></wm-button>
+        <wm-button id="cb_Number3" [model]="model.cb_Number3" class="cb_Number3" tabindex="11"></wm-button>
+        <wm-button id="cb_Enter" [model]="model.cb_Enter" class="cb_Enter" tabindex="12"></wm-button>
+        <wm-button id="cb_Number0" [model]="model.cb_Number0" class="cb_Number0" tabindex="13"></wm-button>
+        <wm-button id="cb_Number00" [model]="model.cb_Number00" class="cb_Number00" tabindex="14"></wm-button>
+        <wm-button id="cb_Period" [model]="model.cb_Period" class="cb_Period" tabindex="15"></wm-button>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindPOS", "TailwindPOS.csproj", "{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSupport", "WinFormsSupport\WinFormsSupport.csproj", "{5091DB57-D0FD-42A3-861D-3766778159F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stubs", "Stubs\Stubs.csproj", "{D85524E2-748A-4582-848D-AB96F24EC830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5091DB57-D0FD-42A3-861D-3766778159F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D85524E2-748A-4582-848D-AB96F24EC830}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+EndGlobal

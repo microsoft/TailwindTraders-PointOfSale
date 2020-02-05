@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion />
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5091DB57-D0FD-42A3-861D-3766778159F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WinFormsSupport</AssemblyName>
+    <RootNamespace>WinFormsSupport</RootNamespace>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.DataGridViewCommon.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.DataGridViewFlex.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.DB.ADO.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.DB.Essentials.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.Gui.ContainerHelper.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.Gui.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.Gui.Graphics.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.NotUpgradeHelper.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.SupportHelper.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.Utils.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.Utils.ReflectionHelper.dll" />
+    <Reference Include="..\..\UpgradeSupport\\UpgradeHelpers.VB.dll" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PInvoke\SafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UpgradeStubs\UpgradeStubs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="MSDATASRC">
+      <Name>MSDATASRC</Name>
+    </Reference>
+    <Reference Include="UpgradeHelpers.DB.ADO">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.DB.ADO.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.DB.Essentials">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.DB.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.Utils">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.DataGridViewCommon">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.DataGridViewCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.DataGridViewFlex">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.DataGridViewFlex.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="UpgradeHelpers.Gui">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.Gui.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.Gui.ContainerHelper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.Gui.ContainerHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.Gui.Graphics">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.Gui.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.SupportHelper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.SupportHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.Utils.ReflectionHelper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.Utils.ReflectionHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.VB">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.VB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="UpgradeHelpers.NotUpgradeHelper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\UpgradeHelpers.NotUpgradeHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild" />
+  <Target Name="AfterBuild" />
+</Project>

@@ -1,0 +1,26 @@
+body{
+    background-color: lightgrey;
+}
+
+.txtPennies, .txtNickels, .txtDimes, .txtQuarters, .txtHalfDollars, 
+.txtOnes, .txtFives, .txtTens, .txtTwenties, .txtFifties, .txtHundreds{
+    text-align: center;
+    color: rgb(47, 75, 102);
+    font: Brandon Grotesque Light;
+    font-size: 21.75px;
+}
+
+.lblPennies, .lblNickels, .lblDimes, .lblQuarters, .lblHalfDollars, 
+.lblOnes, .lblFives, .lblTens, .lblTwenties, .lblFifties, .lblHundreds{
+    color: rgb(47, 75, 102);
+    font: Brandon Grotesque Light;
+    font-size: 21.75px;
+}
+
+.k-button {
+    background: none
+}
+
+.k-window-titlebar {
+    background-color: rgba(97, 44, 67, 0.8);
+}

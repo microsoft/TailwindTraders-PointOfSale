@@ -1,0 +1,258 @@
+.TailwindPOS_frmCustAdd {
+    left: -1px;
+    top: -1px;
+}
+.TailwindPOS_frmCustAdd .frmCustAdd {
+    background-color: White;
+    width: 1298px;
+    height: 693px;
+    overflow: hidden;
+    left: 4px;
+    top: 27px;
+}
+.TailwindPOS_frmCustAdd .lblFirstName {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 16px;
+    width: 201px;
+    height: 49px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtFirstName {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 184px;
+    top: 16px;
+    width: 337px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblLastName {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 576px;
+    top: 16px;
+    width: 185px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtLastName {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 728px;
+    top: 16px;
+    width: 361px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblEmail {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 80px;
+    width: 185px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtEmail {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 184px;
+    top: 80px;
+    width: 857px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblCompany {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 136px;
+    width: 145px;
+    height: 65px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtCompany {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 184px;
+    top: 144px;
+    width: 857px;
+    height: 65px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblPhone {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 208px;
+    width: 185px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtPhone {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 184px;
+    top: 216px;
+    width: 305px;
+    height: 65px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblStreetAddress1 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 288px;
+    width: 233px;
+    height: 57px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtStreetAddress1 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 256px;
+    top: 288px;
+    width: 937px;
+    height: 65px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblStreetAdress2 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 352px;
+    width: 233px;
+    height: 73px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtStreetAddress2 {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 256px;
+    top: 360px;
+    width: 937px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblState {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 432px;
+    width: 225px;
+    height: 81px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtState {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 120px;
+    top: 432px;
+    width: 209px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblCity {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 344px;
+    top: 432px;
+    width: 217px;
+    height: 65px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtCity {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 424px;
+    top: 432px;
+    width: 289px;
+    height: 57px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblZipCode {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 736px;
+    top: 432px;
+    width: 233px;
+    height: 73px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtZipCode {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 856px;
+    top: 432px;
+    width: 225px;
+    height: 65px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .lblCounty {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 40px;
+    top: 520px;
+    width: 217px;
+    height: 65px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TailwindPOS_frmCustAdd .txtCounty {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 176px;
+    top: 520px;
+    width: 353px;
+    height: 65px;
+    position: absolute;
+}
+.TailwindPOS_frmCustAdd .cbSave {
+    background-color: #612C43;
+    color: rgba(0, 0, 0, 1);
+    left: 64px;
+    top: 624px;
+    width: 401px;
+    height: 65px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TailwindPOS_frmCustAdd .cbClose {
+    background-color: White;
+    color: rgba(0, 0, 0, 1);
+    left: 488px;
+    top: 624px;
+    width: 417px;
+    height: 65px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
