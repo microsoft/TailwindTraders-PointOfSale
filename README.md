@@ -20,8 +20,6 @@ urlFragment: "update-this-to-unique-url-stub"
 
 ![PointOfSale](Documents/Images/PointOfSale.PNG)
 
-[![Actions Status](https://github.com/microsoft/TailwindTraders-PointOfSale/workflows/.github/workflows/web.yml/badge.svg)](https://github.com/microsoft/TailwindTraders-PointOfSale/actions?query=workflow%3A.github%2Fworkflows%2Fweb.yml)
-
 Check out the live website: [https://pos.tailwindtraders.com](https://pos.tailwindtraders.com)
 
 Tailwind Traders business has technology at its heart. It blends the ease of online shopping with the familiarity of a mom-n-pop corner hardware store, and is quickly making a name for itself in the relatively new virtual hardware market. Like many modern organizations, it has evolving internal and external technology needs, and it approaches each moment of transformation with confidence.
