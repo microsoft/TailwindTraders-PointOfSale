@@ -2,20 +2,8 @@
 on: push
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet: [ '2.2.103', '3.0.100', '3.1.100' ]
+    runs-on: windows-latest
     name: web workflow
     steps:
-      - name: build and deploy
+      - name: build
         run: dotnet build Source/Web/TailwindPOS.csproj --configuration Release
-      - name: dotnet publish
-        run: |
-          dotnet publish Source/Web/TailwindPOS.csproj -c Release -o ${{env.DOTNET_ROOT}}/TailwindPOS 
-      - name: 'Run Azure webapp deploy action using publish profile credentials'
-        uses: azure/webapps-deploy@v1
-        with: 
-          app-name: tailwindtraderspos 
-          publish-profile: ${{ secrets.azureWebAppPublishProfile }}
-          package: ${{env.DOTNET_ROOT}}/TailwindPOS 
