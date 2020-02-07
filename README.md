@@ -86,6 +86,8 @@ For this demo reference, we built several consumer and line-of-business applicat
 
 VBUC is a [Moblize.net](https://www.mobilize.net/) product capable of VB6 to VB.NET or WinForms migrations. For more information about this product click [here](https://www.mobilize.net/vbuc-free-trial).
 
+For support and sales you can email wvasquez@mobilize.net.
+
 To migrate TailwindPOS follow the next steps
 
 #### 1. Create a new VBUC project
