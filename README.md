@@ -151,7 +151,7 @@ Run the new WinForms version of TailwindPOS.
 
 WebMAP is a [Mobilize.net](https://www.mobilize.net/) product capable of migrating WinForms apps to .NET core and Angular. For more information about this product click [here](https://www.mobilize.net/webmap).
 
-For support and sales you can email [Will Martinez](mailto:wvasquez@mobilize.net).
+For support and sales you can email [Will Vasquez](mailto:wvasquez@mobilize.net).
 
 #### Prerequisites
  
@@ -300,7 +300,7 @@ Finally publish and your application is now running in an Azure App Service.
 # About Mobilize.net
 Mobilize.Net accelerates and simplifies the transformation of software applications to .NET, web, mobile, and cloud platforms. Millions of developers have used Mobilize.Net technology to successfully modernize billions of lines of code. Mobilize.Net solutions enable customers to reduce risk, cost, and time while moving applications to the platforms businesses demand today. Mobilize.Net migration technology is Microsoft's chosen solution for Visual Studio and MSDN customers. The privately-held Mobilize.Net is based in Bellevue, WA, and is led by former Microsoft Corporate Vice President, Tom Button. For more information, please go to https://www.mobilize.net.
 
-For support and sales you can email [Will Martinez](mailto:wvasquez@mobilize.net).
+For support and sales you can email [Will Vasquez](mailto:wvasquez@mobilize.net).
 
 [![MobilizeLogo](Documents/Images/Mobilize.png)](https://www.mobilize.net)
 
