@@ -111,9 +111,9 @@ namespace TailwindPOS
 
       private void cb_Back_Click(Object eventSender, EventArgs eventArgs)
       {
-      	if (Strings.Len(txtAmount.Text) > 0)
+      	if (txtAmount.Text.Length > 0)
       	{
-      		txtAmount.Text = txtAmount.Text.Substring(0, Math.Min(Strings.Len(txtAmount.Text) - 1, txtAmount.Text.Length));
+      		txtAmount.Text = txtAmount.Text.Substring(0, Math.Min(txtAmount.Text.Length - 1, txtAmount.Text.Length));
       	}
       	if (OnBack != null)
       	{
@@ -258,7 +258,7 @@ namespace TailwindPOS
 
       private void txtAmount_KeyPress(Object eventSender, Mobilize.Web.KeyPressEventArgs eventArgs)
       {
-      	int KeyAscii = Strings.Asc(eventArgs.KeyChar);
+      	int KeyAscii = Strings.AscW(eventArgs.KeyChar);
       	try
       	{
       		// When Enter is pressed

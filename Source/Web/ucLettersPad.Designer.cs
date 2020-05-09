@@ -15,7 +15,7 @@ namespace TailwindPOS
    	}
 
       [Intercepted]
-      private string[] visualControls { get; set; } = new string[]{"components", "ToolTipMain", "cbAllCaps", "cbUnderscore", "cbMinus", "cbAt", "cbDelete", "cbSpace", "cbLetterY", "cbLetterZ", "cbLetterV", "cbLetterW", "cbLetterX", "cbLetterS", "cbLetterT", "cbLetterU", "cbLetterP", "cbLetterQ", "cbLetterR", "cbLetterM", "cbLetterN", "cbLetterO", "cbLetterJ", "cbLetterK", "cbLetterL", "cbLetterG", "cbLetterH", "cbLetterI", "cbLetterD", "cbLetterE", "cbLetterF", "cbLetterA", "cbLetterB", "cbLetterC", "txtValue", "cb_Number7", "cb_Number8", "cb_Number9", "cb_Number4", "cb_Number5", "cb_Number6", "cb_Number1", "cb_Number2", "cb_Number3", "cb_Enter", "cb_Number0", "cb_Period", "commandButtonHelper1"};
+      private string[] visualControls { get; set; } = new string[]{"components", "ToolTipMain", "cbAllCaps", "cbUnderscore", "cbMinus", "cbAt", "cbDelete", "cbSpace", "cbLetterY", "cbLetterZ", "cbLetterV", "cbLetterW", "cbLetterX", "cbLetterS", "cbLetterT", "cbLetterU", "cbLetterP", "cbLetterQ", "cbLetterR", "cbLetterM", "cbLetterN", "cbLetterO", "cbLetterJ", "cbLetterK", "cbLetterL", "cbLetterG", "cbLetterH", "cbLetterI", "cbLetterD", "cbLetterE", "cbLetterF", "cbLetterA", "cbLetterB", "cbLetterC", "txtValue", "cb_Number7", "cb_Number8", "cb_Number9", "cb_Number4", "cb_Number5", "cb_Number6", "cb_Number1", "cb_Number2", "cb_Number3", "cb_Enter", "cb_Number0", "cb_Period"};
 
       [Intercepted]
       //Required by the Windows Form Designer
@@ -160,8 +160,7 @@ namespace TailwindPOS
       [Intercepted]
       internal Mobilize.Web.Button cb_Period { get; set; }
 
-      [Intercepted]
-      private Stub._UpgradeHelpers.Gui.CommandButtonHelper commandButtonHelper1 { get; set; }
+      
       //NOTE: The following procedure is required by the Windows Form Designer
       //It can be modified using the Windows Form Designer.
       //Do not modify it using the code editor.
@@ -218,7 +217,7 @@ namespace TailwindPOS
       	this.cb_Number0 = new Mobilize.Web.Button();
       	this.cb_Period = new Mobilize.Web.Button();
       	this.SuspendLayout();
-      	this.commandButtonHelper1 = new Stub._UpgradeHelpers.Gui.CommandButtonHelper(this.components);
+      	
       	// 
       	// cbAllCaps
       	// 
@@ -228,7 +227,7 @@ namespace TailwindPOS
          this.cbAllCaps.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbAllCaps.Location = new System.Drawing.Point(480, 160);
          this.cbAllCaps.Name = "cbAllCaps";
-         this.cbAllCaps.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbAllCaps.Size = new System.Drawing.Size(153, 73);
          this.cbAllCaps.TabIndex = 44;
          this.cbAllCaps.Text = "ALL CAPS";
@@ -244,7 +243,7 @@ namespace TailwindPOS
          this.cbUnderscore.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbUnderscore.Location = new System.Drawing.Point(320, 160);
          this.cbUnderscore.Name = "cbUnderscore";
-         this.cbUnderscore.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbUnderscore.Size = new System.Drawing.Size(73, 73);
          this.cbUnderscore.TabIndex = 43;
          this.cbUnderscore.Text = "_";
@@ -260,7 +259,7 @@ namespace TailwindPOS
          this.cbMinus.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbMinus.Location = new System.Drawing.Point(240, 160);
          this.cbMinus.Name = "cbMinus";
-         this.cbMinus.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbMinus.Size = new System.Drawing.Size(73, 73);
          this.cbMinus.TabIndex = 42;
          this.cbMinus.Text = "-";
@@ -276,7 +275,7 @@ namespace TailwindPOS
          this.cbAt.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbAt.Location = new System.Drawing.Point(400, 160);
          this.cbAt.Name = "cbAt";
-         this.cbAt.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbAt.Size = new System.Drawing.Size(73, 73);
          this.cbAt.TabIndex = 41;
          this.cbAt.Text = "@";
@@ -292,7 +291,7 @@ namespace TailwindPOS
          this.cbDelete.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbDelete.Location = new System.Drawing.Point(320, 480);
          this.cbDelete.Name = "cbDelete";
-         this.cbDelete.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbDelete.Size = new System.Drawing.Size(153, 73);
          this.cbDelete.TabIndex = 40;
          this.cbDelete.Text = "Delete";
@@ -308,7 +307,7 @@ namespace TailwindPOS
          this.cbSpace.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbSpace.Location = new System.Drawing.Point(160, 480);
          this.cbSpace.Name = "cbSpace";
-         this.cbSpace.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbSpace.Size = new System.Drawing.Size(153, 73);
          this.cbSpace.TabIndex = 39;
          this.cbSpace.Text = "Space";
@@ -324,7 +323,7 @@ namespace TailwindPOS
          this.cbLetterY.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterY.Location = new System.Drawing.Point(0, 480);
          this.cbLetterY.Name = "cbLetterY";
-         this.cbLetterY.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterY.Size = new System.Drawing.Size(73, 73);
          this.cbLetterY.TabIndex = 38;
          this.cbLetterY.Text = "Y";
@@ -340,7 +339,7 @@ namespace TailwindPOS
          this.cbLetterZ.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterZ.Location = new System.Drawing.Point(80, 480);
          this.cbLetterZ.Name = "cbLetterZ";
-         this.cbLetterZ.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterZ.Size = new System.Drawing.Size(73, 73);
          this.cbLetterZ.TabIndex = 37;
          this.cbLetterZ.Text = "Z";
@@ -356,7 +355,7 @@ namespace TailwindPOS
          this.cbLetterV.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterV.Location = new System.Drawing.Point(400, 400);
          this.cbLetterV.Name = "cbLetterV";
-         this.cbLetterV.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterV.Size = new System.Drawing.Size(73, 73);
          this.cbLetterV.TabIndex = 36;
          this.cbLetterV.Text = "V";
@@ -372,7 +371,7 @@ namespace TailwindPOS
          this.cbLetterW.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterW.Location = new System.Drawing.Point(480, 400);
          this.cbLetterW.Name = "cbLetterW";
-         this.cbLetterW.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterW.Size = new System.Drawing.Size(73, 73);
          this.cbLetterW.TabIndex = 35;
          this.cbLetterW.Text = "W";
@@ -388,7 +387,7 @@ namespace TailwindPOS
          this.cbLetterX.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterX.Location = new System.Drawing.Point(560, 400);
          this.cbLetterX.Name = "cbLetterX";
-         this.cbLetterX.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterX.Size = new System.Drawing.Size(73, 73);
          this.cbLetterX.TabIndex = 34;
          this.cbLetterX.Text = "X";
@@ -404,7 +403,7 @@ namespace TailwindPOS
          this.cbLetterS.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterS.Location = new System.Drawing.Point(160, 400);
          this.cbLetterS.Name = "cbLetterS";
-         this.cbLetterS.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterS.Size = new System.Drawing.Size(73, 73);
          this.cbLetterS.TabIndex = 33;
          this.cbLetterS.Text = "S";
@@ -420,7 +419,7 @@ namespace TailwindPOS
          this.cbLetterT.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterT.Location = new System.Drawing.Point(240, 400);
          this.cbLetterT.Name = "cbLetterT";
-         this.cbLetterT.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterT.Size = new System.Drawing.Size(73, 73);
          this.cbLetterT.TabIndex = 32;
          this.cbLetterT.Text = "T";
@@ -436,7 +435,7 @@ namespace TailwindPOS
          this.cbLetterU.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterU.Location = new System.Drawing.Point(320, 400);
          this.cbLetterU.Name = "cbLetterU";
-         this.cbLetterU.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterU.Size = new System.Drawing.Size(73, 73);
          this.cbLetterU.TabIndex = 31;
          this.cbLetterU.Text = "U";
@@ -452,7 +451,7 @@ namespace TailwindPOS
          this.cbLetterP.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterP.Location = new System.Drawing.Point(560, 320);
          this.cbLetterP.Name = "cbLetterP";
-         this.cbLetterP.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterP.Size = new System.Drawing.Size(73, 73);
          this.cbLetterP.TabIndex = 30;
          this.cbLetterP.Text = "P";
@@ -468,7 +467,7 @@ namespace TailwindPOS
          this.cbLetterQ.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterQ.Location = new System.Drawing.Point(0, 400);
          this.cbLetterQ.Name = "cbLetterQ";
-         this.cbLetterQ.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterQ.Size = new System.Drawing.Size(73, 73);
          this.cbLetterQ.TabIndex = 29;
          this.cbLetterQ.Text = "Q";
@@ -484,7 +483,7 @@ namespace TailwindPOS
          this.cbLetterR.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterR.Location = new System.Drawing.Point(80, 400);
          this.cbLetterR.Name = "cbLetterR";
-         this.cbLetterR.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterR.Size = new System.Drawing.Size(73, 73);
          this.cbLetterR.TabIndex = 28;
          this.cbLetterR.Text = "R";
@@ -500,7 +499,7 @@ namespace TailwindPOS
          this.cbLetterM.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterM.Location = new System.Drawing.Point(320, 320);
          this.cbLetterM.Name = "cbLetterM";
-         this.cbLetterM.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterM.Size = new System.Drawing.Size(73, 73);
          this.cbLetterM.TabIndex = 27;
          this.cbLetterM.Text = "M";
@@ -516,7 +515,7 @@ namespace TailwindPOS
          this.cbLetterN.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterN.Location = new System.Drawing.Point(400, 320);
          this.cbLetterN.Name = "cbLetterN";
-         this.cbLetterN.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterN.Size = new System.Drawing.Size(73, 73);
          this.cbLetterN.TabIndex = 26;
          this.cbLetterN.Text = "N";
@@ -532,7 +531,7 @@ namespace TailwindPOS
          this.cbLetterO.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterO.Location = new System.Drawing.Point(480, 320);
          this.cbLetterO.Name = "cbLetterO";
-         this.cbLetterO.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterO.Size = new System.Drawing.Size(73, 73);
          this.cbLetterO.TabIndex = 25;
          this.cbLetterO.Text = "O";
@@ -548,7 +547,7 @@ namespace TailwindPOS
          this.cbLetterJ.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterJ.Location = new System.Drawing.Point(80, 320);
          this.cbLetterJ.Name = "cbLetterJ";
-         this.cbLetterJ.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterJ.Size = new System.Drawing.Size(73, 73);
          this.cbLetterJ.TabIndex = 24;
          this.cbLetterJ.Text = "J";
@@ -564,7 +563,7 @@ namespace TailwindPOS
          this.cbLetterK.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterK.Location = new System.Drawing.Point(160, 320);
          this.cbLetterK.Name = "cbLetterK";
-         this.cbLetterK.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterK.Size = new System.Drawing.Size(73, 73);
          this.cbLetterK.TabIndex = 23;
          this.cbLetterK.Text = "K";
@@ -580,7 +579,7 @@ namespace TailwindPOS
          this.cbLetterL.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterL.Location = new System.Drawing.Point(240, 320);
          this.cbLetterL.Name = "cbLetterL";
-         this.cbLetterL.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterL.Size = new System.Drawing.Size(73, 73);
          this.cbLetterL.TabIndex = 22;
          this.cbLetterL.Text = "L";
@@ -596,7 +595,7 @@ namespace TailwindPOS
          this.cbLetterG.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterG.Location = new System.Drawing.Point(480, 240);
          this.cbLetterG.Name = "cbLetterG";
-         this.cbLetterG.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterG.Size = new System.Drawing.Size(73, 73);
          this.cbLetterG.TabIndex = 21;
          this.cbLetterG.Text = "G";
@@ -612,7 +611,7 @@ namespace TailwindPOS
          this.cbLetterH.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterH.Location = new System.Drawing.Point(560, 240);
          this.cbLetterH.Name = "cbLetterH";
-         this.cbLetterH.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterH.Size = new System.Drawing.Size(73, 73);
          this.cbLetterH.TabIndex = 20;
          this.cbLetterH.Text = "H";
@@ -628,7 +627,7 @@ namespace TailwindPOS
          this.cbLetterI.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterI.Location = new System.Drawing.Point(0, 320);
          this.cbLetterI.Name = "cbLetterI";
-         this.cbLetterI.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterI.Size = new System.Drawing.Size(73, 73);
          this.cbLetterI.TabIndex = 19;
          this.cbLetterI.Text = "I";
@@ -644,7 +643,7 @@ namespace TailwindPOS
          this.cbLetterD.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterD.Location = new System.Drawing.Point(240, 240);
          this.cbLetterD.Name = "cbLetterD";
-         this.cbLetterD.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterD.Size = new System.Drawing.Size(73, 73);
          this.cbLetterD.TabIndex = 18;
          this.cbLetterD.Text = "D";
@@ -660,7 +659,7 @@ namespace TailwindPOS
          this.cbLetterE.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterE.Location = new System.Drawing.Point(320, 240);
          this.cbLetterE.Name = "cbLetterE";
-         this.cbLetterE.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterE.Size = new System.Drawing.Size(73, 73);
          this.cbLetterE.TabIndex = 17;
          this.cbLetterE.Text = "E";
@@ -676,7 +675,7 @@ namespace TailwindPOS
          this.cbLetterF.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterF.Location = new System.Drawing.Point(400, 240);
          this.cbLetterF.Name = "cbLetterF";
-         this.cbLetterF.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterF.Size = new System.Drawing.Size(73, 73);
          this.cbLetterF.TabIndex = 16;
          this.cbLetterF.Text = "F";
@@ -692,7 +691,7 @@ namespace TailwindPOS
          this.cbLetterA.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterA.Location = new System.Drawing.Point(0, 240);
          this.cbLetterA.Name = "cbLetterA";
-         this.cbLetterA.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterA.Size = new System.Drawing.Size(73, 73);
          this.cbLetterA.TabIndex = 15;
          this.cbLetterA.Text = "A";
@@ -708,7 +707,7 @@ namespace TailwindPOS
          this.cbLetterB.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterB.Location = new System.Drawing.Point(80, 240);
          this.cbLetterB.Name = "cbLetterB";
-         this.cbLetterB.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterB.Size = new System.Drawing.Size(73, 73);
          this.cbLetterB.TabIndex = 14;
          this.cbLetterB.Text = "B";
@@ -724,7 +723,7 @@ namespace TailwindPOS
          this.cbLetterC.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cbLetterC.Location = new System.Drawing.Point(160, 240);
          this.cbLetterC.Name = "cbLetterC";
-         this.cbLetterC.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cbLetterC.Size = new System.Drawing.Size(73, 73);
          this.cbLetterC.TabIndex = 13;
          this.cbLetterC.Text = "C";
@@ -738,13 +737,13 @@ namespace TailwindPOS
          this.txtValue.AllowDrop = true;
          this.txtValue.BackColor = System.Drawing.Color.White;
          this.txtValue.BorderStyle = Mobilize.Web.BorderStyle.Fixed3D;
-         this.txtValue.Properties().Cursor = null;
+
          this.txtValue.Font = new Mobilize.Web.Font("Arial", 36f, Mobilize.Web.FontStyle.Regular, Mobilize.Web.GraphicsUnit.Point, 0);
          this.txtValue.ForeColor = System.Drawing.Color.FromArgb(47, 75, 102);
          this.txtValue.Location = new System.Drawing.Point(0, 0);
          this.txtValue.MaxLength = 0;
          this.txtValue.Name = "txtValue";
-         this.txtValue.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.txtValue.Size = new System.Drawing.Size(633, 73);
          this.txtValue.TabIndex = 12;
          this.txtValue.TextAlign = Mobilize.Web.HorizontalAlignment.Right;
@@ -757,7 +756,7 @@ namespace TailwindPOS
          this.cb_Number7.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number7.Location = new System.Drawing.Point(480, 80);
          this.cb_Number7.Name = "cb_Number7";
-         this.cb_Number7.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number7.Size = new System.Drawing.Size(73, 73);
          this.cb_Number7.TabIndex = 11;
          this.cb_Number7.Text = "7";
@@ -773,7 +772,7 @@ namespace TailwindPOS
          this.cb_Number8.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number8.Location = new System.Drawing.Point(560, 80);
          this.cb_Number8.Name = "cb_Number8";
-         this.cb_Number8.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number8.Size = new System.Drawing.Size(73, 73);
          this.cb_Number8.TabIndex = 10;
          this.cb_Number8.Text = "8";
@@ -789,7 +788,7 @@ namespace TailwindPOS
          this.cb_Number9.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number9.Location = new System.Drawing.Point(0, 160);
          this.cb_Number9.Name = "cb_Number9";
-         this.cb_Number9.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number9.Size = new System.Drawing.Size(73, 73);
          this.cb_Number9.TabIndex = 9;
          this.cb_Number9.Text = "9";
@@ -805,7 +804,7 @@ namespace TailwindPOS
          this.cb_Number4.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number4.Location = new System.Drawing.Point(240, 80);
          this.cb_Number4.Name = "cb_Number4";
-         this.cb_Number4.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number4.Size = new System.Drawing.Size(73, 73);
          this.cb_Number4.TabIndex = 8;
          this.cb_Number4.Text = "4";
@@ -821,7 +820,7 @@ namespace TailwindPOS
          this.cb_Number5.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number5.Location = new System.Drawing.Point(320, 80);
          this.cb_Number5.Name = "cb_Number5";
-         this.cb_Number5.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number5.Size = new System.Drawing.Size(73, 73);
          this.cb_Number5.TabIndex = 7;
          this.cb_Number5.Text = "5";
@@ -837,7 +836,7 @@ namespace TailwindPOS
          this.cb_Number6.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number6.Location = new System.Drawing.Point(400, 80);
          this.cb_Number6.Name = "cb_Number6";
-         this.cb_Number6.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number6.Size = new System.Drawing.Size(73, 73);
          this.cb_Number6.TabIndex = 6;
          this.cb_Number6.Text = "6";
@@ -853,7 +852,7 @@ namespace TailwindPOS
          this.cb_Number1.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number1.Location = new System.Drawing.Point(0, 80);
          this.cb_Number1.Name = "cb_Number1";
-         this.cb_Number1.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number1.Size = new System.Drawing.Size(73, 73);
          this.cb_Number1.TabIndex = 5;
          this.cb_Number1.Text = "1";
@@ -869,7 +868,7 @@ namespace TailwindPOS
          this.cb_Number2.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number2.Location = new System.Drawing.Point(80, 80);
          this.cb_Number2.Name = "cb_Number2";
-         this.cb_Number2.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number2.Size = new System.Drawing.Size(73, 73);
          this.cb_Number2.TabIndex = 4;
          this.cb_Number2.Text = "2";
@@ -885,7 +884,7 @@ namespace TailwindPOS
          this.cb_Number3.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number3.Location = new System.Drawing.Point(160, 80);
          this.cb_Number3.Name = "cb_Number3";
-         this.cb_Number3.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number3.Size = new System.Drawing.Size(73, 73);
          this.cb_Number3.TabIndex = 3;
          this.cb_Number3.Text = "3";
@@ -901,7 +900,7 @@ namespace TailwindPOS
          this.cb_Enter.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Enter.Location = new System.Drawing.Point(480, 480);
          this.cb_Enter.Name = "cb_Enter";
-         this.cb_Enter.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Enter.Size = new System.Drawing.Size(153, 73);
          this.cb_Enter.TabIndex = 2;
          this.cb_Enter.Text = "Enter";
@@ -917,7 +916,7 @@ namespace TailwindPOS
          this.cb_Number0.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Number0.Location = new System.Drawing.Point(80, 160);
          this.cb_Number0.Name = "cb_Number0";
-         this.cb_Number0.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Number0.Size = new System.Drawing.Size(73, 73);
          this.cb_Number0.TabIndex = 1;
          this.cb_Number0.Text = "0";
@@ -932,7 +931,7 @@ namespace TailwindPOS
          this.cb_Period.ForeColor = Mobilize.Web.SystemColors.ControlText;
          this.cb_Period.Location = new System.Drawing.Point(160, 160);
          this.cb_Period.Name = "cb_Period";
-         this.cb_Period.Properties().RightToLeft = Stub._System.Windows.Forms.RightToLeft.No;
+
          this.cb_Period.Size = new System.Drawing.Size(73, 73);
          this.cb_Period.TabIndex = 0;
          this.cb_Period.Text = ".";
@@ -990,51 +989,7 @@ namespace TailwindPOS
          this.Controls.Add(this.cb_Period);
          base.Location = new System.Drawing.Point(0, 0);
          base.Name = "ucLettersPad";
-         commandButtonHelper1.SetStyle(this.cbAllCaps, 1);
-         commandButtonHelper1.SetStyle(this.cbUnderscore, 1);
-         commandButtonHelper1.SetStyle(this.cbMinus, 1);
-         commandButtonHelper1.SetStyle(this.cbAt, 1);
-         commandButtonHelper1.SetStyle(this.cbDelete, 1);
-         commandButtonHelper1.SetStyle(this.cbSpace, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterY, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterZ, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterV, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterW, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterX, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterS, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterT, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterU, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterP, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterQ, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterR, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterM, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterN, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterO, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterJ, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterK, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterL, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterG, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterH, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterI, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterD, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterE, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterF, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterA, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterB, 1);
-         commandButtonHelper1.SetStyle(this.cbLetterC, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number7, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number8, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number9, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number4, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number5, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number6, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number1, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number2, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number3, 1);
-         commandButtonHelper1.SetStyle(this.cb_Enter, 1);
-         commandButtonHelper1.SetStyle(this.cb_Number0, 1);
-         commandButtonHelper1.SetStyle(this.cb_Period, 1);
-         this.ResumeLayout(false);
+
       }
       void ReLoadForm(bool addEvents)
       {

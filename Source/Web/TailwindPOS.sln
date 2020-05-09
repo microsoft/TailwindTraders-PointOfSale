@@ -4,10 +4,6 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindPOS", "TailwindPOS.csproj", "{F4A22990-2C6E-493B-BCF2-C21E6F9D1332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSupport", "WinFormsSupport\WinFormsSupport.csproj", "{5091DB57-D0FD-42A3-861D-3766778159F3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stubs", "Stubs\Stubs.csproj", "{D85524E2-748A-4582-848D-AB96F24EC830}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

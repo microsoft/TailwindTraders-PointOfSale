@@ -5,7 +5,6 @@ using System.Data;
 using System.Data.Common;
 using System.Globalization;
 using UpgradeHelpers.DB.ADO;
-using UpgradeStubs;
 using Mobilize.WebMap.Common.Attributes;
 using Mobilize.Web.Extensions;
 
@@ -271,14 +270,14 @@ namespace TailwindPOS
       	int startindex = (json.IndexOf("\"" + property + "\":") + 1);
       	if (startindex > -1)
       	{
-      		startindex = startindex + Strings.Len(property) + 3;
+      		startindex = startindex + property.Length + 3;
       		if (isnumber)
       		{
-      			endindex = Strings.InStr(startindex, json, ",", CompareMethod.Binary);
+      			endindex =  json.IndexOf(",",startindex);
       		}
       		else
       		{
-      			endindex = Strings.InStr(startindex, json, "\",", CompareMethod.Binary);
+      			endindex = json.IndexOf("\",",startindex);
       			// this is to skip the double quote
       			startindex++;
       		}
@@ -460,7 +459,7 @@ namespace TailwindPOS
       	DbConnection conn = UpgradeHelpers.DB.AdoFactoryManager.GetFactory().CreateConnection();
       	conn.ConnectionString = ConnectionString;
       	//UPGRADE_ISSUE: (2064) ADODB.Connection property conn.CursorLocation was not upgraded. More Information: https://www.mobilize.net/vbtonet/ewis/ewi2064
-      	conn.setCursorLocation(CursorLocationEnum.adUseClient);
+      	//conn.setCursorLocation(CursorLocationEnum.adUseClient);
       	//UPGRADE_TODO: (7010) The connection string must be verified to fullfill the .NET data provider connection string requirements. More Information: https://www.mobilize.net/vbtonet/ewis/ewi7010
       	conn.Open();
       	return conn;

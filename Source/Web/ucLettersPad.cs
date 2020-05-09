@@ -212,7 +212,7 @@ namespace TailwindPOS
       {
       	if (txtValue.Text != "")
       	{
-      		txtValue.Text = txtValue.Text.Substring(0, Math.Min(Strings.Len(txtValue.Text) - 1, txtValue.Text.Length));
+      		txtValue.Text = txtValue.Text.Substring(0, Math.Min(txtValue.Text.Length - 1, txtValue.Text.Length));
       	}
       }
 

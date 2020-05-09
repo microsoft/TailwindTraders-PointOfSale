@@ -242,7 +242,7 @@ namespace TailwindPOS
       		}
       		else
       		{
-      			m_LastTextBox.Text = m_LastTextBox.Text.Substring(0, Math.Min(Strings.Len(m_LastTextBox.Text) - 1, m_LastTextBox.Text.Length));
+      			m_LastTextBox.Text = m_LastTextBox.Text.Substring(0, Math.Min(m_LastTextBox.Text.Length - 1, m_LastTextBox.Text.Length));
       		}
       	}
       	UpdateTotals();
