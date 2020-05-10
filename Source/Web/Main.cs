@@ -7,6 +7,7 @@ using System.Globalization;
 using UpgradeHelpers.DB.ADO;
 using Mobilize.WebMap.Common.Attributes;
 using Mobilize.Web.Extensions;
+using System.Net.Http;
 
 namespace TailwindPOS
 {
@@ -323,27 +324,33 @@ namespace TailwindPOS
       internal static bool FindProductByCode(string productCode, ref string ProductDescription, ref decimal ProductPrice)
       {
       	bool result = false;
-      	MSXML2.ServerXMLHTTP60 xmlhttp = new MSXML2.ServerXMLHTTP60();
-      	xmlhttp.open("GET", URL_PRODUCT_API + productCode, false, Type.Missing, Type.Missing);
-      	xmlhttp.send(Type.Missing);
-      	string response = "";
-      	// was the response ok
-      	if (xmlhttp.status == 200)
-      	{
+
+		using (var httpClient = new HttpClient())
+    	{
+			using (var apiresponse = httpClient.GetAsync(URL_PRODUCT_API + productCode).GetAwaiter().GetResult())
+			{
+
+				string response = "";
+				// was the response ok
+				if ((int)apiresponse.StatusCode == 200)
+				{
 
 
-      		response = xmlhttp.responseText;
-      		ProductDescription = ExtractData("name", xmlhttp.responseText, false);
-      		ProductPrice = Decimal.Parse(ExtractData("price", xmlhttp.responseText, true), NumberStyles.Currency | NumberStyles.AllowExponent);
-      		result = true;
-      	}
-      	else
-      	{
-      		result = false;
-            Mobilize.Web.MessageBox.Show("Product not found", System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly().Location).ProductName);
-         }
+					response = apiresponse.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+					ProductDescription = ExtractData("name", response, false);
+					ProductPrice = Decimal.Parse(ExtractData("price", response, true), NumberStyles.Currency | NumberStyles.AllowExponent);
+					result = true;
+				}
+				else
+				{
+					result = false;
+					Mobilize.Web.MessageBox.Show("Product not found", System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly().Location).ProductName);
+				}
 
-         return result;
+				return result;
+
+			}
+    	}
       }
 
 

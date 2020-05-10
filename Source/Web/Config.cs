@@ -20,10 +20,9 @@ namespace TailwindPOS
    	internal static string ReadConfigSetting(ref string sSection, string sKeyName, ref string sINIFileName)
    	{
 
-   		string sRet = new string(Strings.ChrW(0), 255);
-   		string tempRefParam = "";
-   		string ProfileString = WinFormsSupport.PInvoke.SafeNative.kernel32.GetPrivateProfileString(ref sSection, sKeyName, ref tempRefParam, ref sRet, sRet.Length, ref sINIFileName).ToString();
-   		return sRet.Substring(0, Math.Min(Convert.ToInt32(Double.Parse(ProfileString)), sRet.Length));
+		var parser = new IniParser.FileIniDataParser();
+		var data = parser.ReadFile(sINIFileName);
+		return data[sSection][sKeyName];
    	}
 
    }
