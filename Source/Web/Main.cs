@@ -503,16 +503,16 @@ namespace TailwindPOS
       internal static void ReadConfig()
       {
       	string tempRefParam = "Connection String";
-      	string tempRefParam2 = ".\\TailwindPOS.ini";
+      	string tempRefParam2 = "TailwindPOS.ini";
       	ConnectionString = Config.ReadConfigSetting(ref tempRefParam, "DatabaseConnectionString", ref tempRefParam2);
       	string tempRefParam3 = "Products";
-      	string tempRefParam4 = ".\\TailwindPOS.ini";
+      	string tempRefParam4 = "TailwindPOS.ini";
       	URL_PRODUCT_API = Config.ReadConfigSetting(ref tempRefParam3, "ProductsWebAPIURL", ref tempRefParam4);
       	string tempRefParam5 = "CashDrawer";
-      	string tempRefParam6 = ".\\TailwindPOS.ini";
+      	string tempRefParam6 = "TailwindPOS.ini";
       	MINIMUM_CASH = Convert.ToInt32(Double.Parse(Config.ReadConfigSetting(ref tempRefParam5, "MinimumCash", ref tempRefParam6)));
-      	string tempRefParam7 = "Pos";
-      	string tempRefParam8 = ".\\TailwindPOS.ini";
+      	string tempRefParam7 = "POS";
+      	string tempRefParam8 = "TailwindPOS.ini";
       	PRESET_TERMINALID = Convert.ToInt32(Double.Parse(Config.ReadConfigSetting(ref tempRefParam7, "POSTerminal", ref tempRefParam8)));
       }
 

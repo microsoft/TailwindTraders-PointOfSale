@@ -25,7 +25,16 @@
         <PackageReference Include="System.Configuration" Version="2.0.5" />
         <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
         <PackageReference Include="ini-parser-netstandard" Version="2.5.2" />
+        <PackageReference Include="System.Data.Odbc" Version="4.7.0" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
     </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="TailwindPOS.ini">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
     <ItemGroup>
         <Content Include="Views\**\*.cshtml" />
         <Content Include="Views\**\*.config" />

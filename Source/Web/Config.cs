@@ -19,10 +19,11 @@ namespace TailwindPOS
    	// Reads configuration settings from INI file
    	internal static string ReadConfigSetting(ref string sSection, string sKeyName, ref string sINIFileName)
    	{
-
 		var parser = new IniParser.FileIniDataParser();
 		var data = parser.ReadFile(sINIFileName);
-		return data[sSection][sKeyName];
+		var value = data[sSection][sKeyName] ?? string.Empty;
+		Console.WriteLine($"Reading Config File {sINIFileName} Section {sSection} - {sKeyName} Value is {value}");
+		return value;
    	}
 
    }
