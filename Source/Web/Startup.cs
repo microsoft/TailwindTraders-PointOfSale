@@ -21,6 +21,9 @@ namespace WebSite
     using Mobilize.WebMap.Host;
     using Mobilize.WebMap.Server;
     using Mobilize.WebMap.Server.ObservableBinder;
+    using Microsoft.AspNetCore;
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.AspNetCore.Server.Kestrel.Core;
 
     /// <summary>
     /// Startup
@@ -37,7 +40,9 @@ namespace WebSite
             services.AddWebMap();
             services.RegisterModelMappers();
             services.RegisterWrappers();
-            AddDesktopCompatibilityPlatform(services, Startup.Start);
+            services.AddSingleton<ICommandFactory, CommandFactory>();
+            // Configure the Application
+            services.AddScoped<IApplication, MyApplication>();
             services.AddDistributedMemoryCache();
             services.AddSession();
             services.AddAntiforgery(options => options.HeaderName = WebMapHeaders.AntiforgeryToken);
@@ -46,6 +51,11 @@ namespace WebSite
                             options.ModelBinderProviders.Insert(0, new ObservableModelBinderProvider());
                             options.ModelMetadataDetailsProviders.Insert(0, new SuppressChildValidationMetadataProvider(typeof(IObservable)));
                         });
+            // If using IIS:
+            services.Configure<IISServerOptions>(options => options.AllowSynchronousIO = true);
+            // If using Kestrel:
+            services.Configure<KestrelServerOptions>(options => options.AllowSynchronousIO = true);
+            services.AddHealthChecks();
         }
 
         /// <summary>
@@ -53,28 +63,45 @@ namespace WebSite
         /// </summary>
         /// <param name="app">the application builder</param>
         /// <param name="env">the hosting environment</param>
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseSession();
             app.UseAntiforgeryToken();
             app.UseWebMap();
-            app.UseMvc(routes =>
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute("DefaultApi", "api/{controller}/{id}");
+                endpoints.MapControllerRoute("DefaultApi", "api/{controller}/{id}");
+                endpoints.MapHealthChecks("/health");
             });
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
         }
 
-        private static void AddDesktopCompatibilityPlatform(IServiceCollection services, EntryPoint entryPoint)
+        /// <summary>
+        /// Entry Point of the web Application.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
+        public static void Main(string[] args)
         {
-            services.AddSingleton<ICommandFactory, CommandFactory>();
-            services.AddScoped<IApplication>((provider) => new Application() { EntryPoint = entryPoint });
+    
+            BuildWebHost(args).Run();
         }
+
+        /// <summary>
+        /// Returns a new WebHost
+        /// </summary>
+        /// <param name="args">run arguments</param>
+        /// <returns>a new WebHost</returns>
+        public static IWebHost BuildWebHost(string[] args){
+            return WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .Build();
+        }
+
     }
 }

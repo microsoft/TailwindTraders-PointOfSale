@@ -32,8 +32,7 @@ namespace TailwindPOS
       [Intercepted]
 
       // The Connection String to use to open the Database
-      static
-      string ConnectionString { get; set; } = "";
+      static string ConnectionString { get; set; } = "";
 
       [Intercepted]
 
