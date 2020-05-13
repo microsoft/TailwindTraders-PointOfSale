@@ -5,7 +5,7 @@ import { FormComponent} from "@mobilize/winforms-components";
 import { WebMapService} from "@mobilize/angularclient";
 @Component({
    selector : "tailwind-pos-frm-pause",
-   styleUrls : ["./frm-pause.component.css"],
+   styleUrls : ["./frm-pause.component.scss"],
    templateUrl : "./frm-pause.component.html",
    encapsulation : ViewEncapsulation.None
 })

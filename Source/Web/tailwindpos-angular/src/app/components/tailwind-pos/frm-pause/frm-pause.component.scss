@@ -1,0 +1,53 @@
+.TailwindPOS_frmPause {
+      left: -1px;
+      top: -1px;
+
+
+      .frmPause {
+         $form-width:844;
+         $form-height:334;
+         $form-x:3;
+         $form-y:26;
+
+
+         min-width: 844px;
+         width: 100%;
+         height: #{$form-height}px;
+         left: #{$form-x}px;
+         top: #{$form-y}px;
+         .lblPauseMessage {
+
+
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(0, 0, 0, 1);
+            left: percentage(56 / $form-width);
+            top: percentage(32 / $form-height);
+            width: percentage(713 / $form-width);
+            height: percentage(73 / $form-height);
+            position: absolute;
+            white-space: nowrap;
+            overflow: hidden;
+         }
+         .cbReturn {
+
+
+            background-color: rgba(97, 44, 67, 1);
+            color: rgba(0, 0, 0, 1);
+            left: percentage(224 / $form-width);
+            top: percentage(160 / $form-height);
+            width: percentage(417 / $form-width);
+            height: percentage(81 / $form-height);
+            position: absolute;
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            display: table-cell;
+            vertical-align: middle;
+         }
+      }
+
+
+
+   }
+

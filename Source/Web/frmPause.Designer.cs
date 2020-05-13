@@ -114,14 +114,14 @@ namespace TailwindPOS
 
          this.BackColor = Mobilize.Web.SystemColors.Window;
 
-         this.ControlBox = false;
+         this.ControlBox = true;
          this.Controls.Add(this.cbReturn);
          this.Controls.Add(this.lblPauseMessage);
          this.Font = new Mobilize.Web.Font("Arial", 24f, Mobilize.Web.FontStyle.Regular, Mobilize.Web.GraphicsUnit.Point, 0);
-         this.FormBorderStyle = Mobilize.Web.FormBorderStyle.FixedDialog;
+         this.FormBorderStyle = Mobilize.Web.FormBorderStyle.Sizable;
 
-         this.MaximizeBox = false;
-         this.MinimizeBox = false;
+         this.MaximizeBox = true;
+         this.MinimizeBox = true;
          this.Name = "frmPause";
 
 
