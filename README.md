@@ -145,6 +145,15 @@ Run the new WinForms version of TailwindPOS.
 
 ![](Documents/Images/POS.PNG)
 
+> NOTE: This application uses OLEDB to access MSACCESS. You can use OleDB on .NETCore 3.1 but some of the drivers are architecture specific. You can download the [Microsoft Access Database Engine 2010 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=13255) for 32 or 64. If for example you install the 32 bit version then add:
+
+```xml
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>true</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+```
+
 ## WinForms To Web
 
 ### WebMAP
