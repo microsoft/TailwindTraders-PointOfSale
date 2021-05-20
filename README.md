@@ -18,6 +18,8 @@ urlFragment: "update-this-to-unique-url-stub"
 
 # Tailwind Traders - Point of Sale Legacy Migration to Azure
 
+## This repo is now archived, so there will be no additional work done here. We still encorage folks to check out the content to learn more about modernizing your legacy applicaitons to Azure. 
+
 ![PointOfSale](Documents/Images/PointOfSale.PNG)
 
 Check out the live website: [https://pos.tailwindtraders.com](https://pos.tailwindtraders.com)
